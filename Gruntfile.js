@@ -424,7 +424,7 @@ var path           = require('path'),
                 prod: {
                     files: [{
                         cwd: 'bower_components/jquery/dist/',
-                        src: 'jquery.min.js',
+                        src: 'jquery.js',
                         dest: 'core/built/public/',
                         expand: true
                     }, {
@@ -442,7 +442,7 @@ var path           = require('path'),
                 release: {
                     files: [{
                         cwd: 'bower_components/jquery/dist/',
-                        src: 'jquery.min.js',
+                        src: 'jquery.js',
                         dest: 'core/built/public/',
                         expand: true
                     }, {
