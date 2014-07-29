@@ -10,7 +10,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         url: 'http://www.labranche.io',
-
+        // test
         // Example mail config
         // Visit http://docs.ghost.org/mail for instructions
         // ```
