@@ -442,7 +442,7 @@ var path           = require('path'),
                 release: {
                     files: [{
                         cwd: 'bower_components/jquery/dist/',
-                        src: 'jquery.js',
+                        src: 'jquery.min.js',
                         dest: 'core/built/public/',
                         expand: true
                     }, {
